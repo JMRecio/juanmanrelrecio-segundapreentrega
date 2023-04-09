@@ -1,0 +1,141 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+   
+    <!--link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+         <!--link CSS-->
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+
+    <header>
+        <section>
+            <nav class="navbar navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html">PowerFit - Contacto</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">PowerFit</h5>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="staff.html">Staff</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="entrenamientos.html">Entrenamientos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="trainingtips.html">Training Tips</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                          </li>
+
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </section>
+
+    </header>
+
+    <main class="maincontacto" class="media">
+
+        <div>
+            <H2>Plaza República del Uruguay</H2>
+            <p>Encontranos en la esquina de Avenida del Libertador y Tagle de la Plaza República del Uruguay de lunes a
+                viernes de 7 a 14 y de 17 a 22 horas
+                y los sabados de 9 a 15 horas.</p>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.875827161675!2d-58.399847985140084!3d-34.582008380465055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb561d4729513%3A0x39b547180183acd0!2sPlaza%20Rep%C3%BAblica%20Oriental%20del%20Uruguay!5e0!3m2!1ses!2sar!4v1678555626900!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div>
+            <img src="../multimedia/Whatsapp-logo.jpg" alt="Whatsapp" class="fotos-contacto">
+            <p>podes contactarnos por Whatsapp al 1588882221</p>
+        </div>
+
+        <section class="redescontacto">
+            <h2>Seguinos en Redes Sociales</h2>
+            <img src="../multimedia/instagram.png" alt="Instagram" class="fotos-contacto">
+            <img src="../multimedia/twitter.png" alt="Twitter" class="fotos-contacto">
+        </section>
+
+        <!--Formulario-->
+        <section class="form">
+
+            <p>POR CUALQUIER CONSULTA, MANDANOS UN MENSAJE</p>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li class="form">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="user_name" placeholder="Ingrese su nombre">
+                    </li>
+                    <li class="form">
+                        <label for="mail">Correo electrónico:</label>
+                        <input type="email" id="mail" name="user_mail" placeholder="Ingrese su e-mail">
+                    </li>
+                    <li class="form">
+                        <label for="msg">Mensaje:</label>
+                        <textarea id="msg" name="user_message" cols="30" rows="10"> Deje su mensaje</textarea>
+                    </li>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Resetear Formulario">
+                </ul>
+
+            </form>
+        </section>
+
+        <!--Links a webs-->
+        <section class="gyms">
+            <p>Encontranos en las cadenas de gym Megatlon y Sportclub</p>
+            <a href="https://megatlon.com/#/" target="_blank">Megatlon</a>
+            <a href="https://www.sportclub.com.ar/" target="_blank">Sportclub</a>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <!--Redes Sociales-->
+        <section class="redessocialesfooter">
+            <p>Seguinos</p>
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">Twitter</a>
+        </section>
+
+        <!--cierre-->
+        <section class="cierre">
+            <p>Plaza República del Uruguay, CABA, Argentina</p>
+            <p>© 2023 PowerFit. Todos los derechos reservados.</p>
+        </section>
+
+    </footer>
+
+    <!--link script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

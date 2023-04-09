@@ -1,0 +1,242 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    /*incorpore la font aca, para que sea la misma en todo el sitio */
+}
+
+/* NAV */
+
+
+.logo {
+    width: 100px;
+    position: absolute;
+    background-color: #000000;
+    color: #e8e8e2;
+    font-size: 60px;
+    margin-left: 10;
+}
+
+/* MAIN */
+
+
+/* HOME */
+
+
+.intro {
+    display: flex;
+    align-items: center;
+    background-image: url('../multimedia/run\ -\ home.jpg');
+    background-size: auto;
+    height: 500px;
+    background-attachment: fixed;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.textointro {
+    color: #720526fd;
+    font-size: x-large;
+    width: 40%;
+    margin-left: 300px;
+}
+
+
+.estrella {
+    width: 100;
+    height: 100;
+    margin: 33;
+}
+
+
+.flexatributos {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 50px;
+    gap: 20px;
+}
+
+.textatributos {display: flex; 
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    justify-items: center;
+    margin: 10px;
+    border: #681885;
+    border-style: solid;
+    text-align: center;
+    font-size: 24px;
+    color: #3a1234;
+    
+}
+
+/* STAFF */
+
+.profes {
+    background-color: #dfcfdb;
+
+}
+
+.profesmain {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    gap: 20px;
+    text-align: center;
+    margin: 20;
+}
+
+
+.fotoprofes {
+    width: 100%;
+    height: 500px;
+}
+
+.textprofes {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background-color: #f991e8;
+    border-color: #bdd7d7;
+    border-style: solid;
+    border-width: 10;
+    align-content: center;
+    margin: 20;
+
+}
+
+
+/* ENTRENAMIENTOS */
+
+.trainingmain {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    gap: 20px;
+    text-align: center;
+    margin: 20;
+}
+
+.fototraining {
+    width: 100%;
+    height: 500px;
+}
+
+.fotohiit {
+    width: 100%;
+    height: 650px;
+}
+
+.texttraining {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background-color: #f991e8;
+    border-color: #bdd7d7;
+    border-style: solid;
+    border-width: 10;
+    align-content: center;
+    margin: 20;
+
+}
+
+/* TRAINING TIPS */
+
+.tp {background-color: #dfcfdb; margin-top: 60px;}
+
+/* videos*/
+
+.videos {
+   
+    padding-left: 20;
+    padding-right: 20;
+    margin: 50;}
+
+.videotext {margin-top: 70px; text-align: center;}
+
+/* lista */
+
+.spotifytext {text-align: center;
+padding: 20px;}
+
+.list {margin-left:30%; margin-right: 30%; padding: 20px;}
+
+/* CONTACTOS */
+
+.maincontacto { display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: auto;
+margin-top: 60px;
+gap: 30px;
+align-items: center; margin-left: 5%;}
+
+.gyms {text-align: center; display: grid; grid-template-columns: none; font-size: 20px;}
+
+.redescontacto {text-align: center;}
+
+/* Fotos contacto */
+
+.fotos-contacto {
+    width: 50;
+    height: 50;
+}
+
+.form {
+    background-color: #000000;
+    color: #e8e8e2;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    size: 30px;
+    border-radius: 10px;
+    width: fit-content;
+    text-align: center;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #e8e8e2be;
+}
+
+.nav-bar-footer {
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.nav-list-footer {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    position: relative;
+    top: 15px;
+    right: 10px;
+    padding: 30px;
+}
+
+.redessocialesfooter {
+    font-size: 15px;
+    color: #00000069;
+    text-align: right;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 300px) {
+
+.media { display: flex; flex-direction: column; align-items: left;}
+
+}
